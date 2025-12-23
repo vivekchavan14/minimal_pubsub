@@ -1,0 +1,228 @@
+Start testing: Dec 23 21:40 IST
+----------------------------------------------------------
+1/8 Testing: BrokerTest.SubscribeAndPublish
+1/8 Test: BrokerTest.SubscribeAndPublish
+Command: "/home/vivek/pubsubcpp/build/pubsub_tests" "--gtest_filter=BrokerTest.SubscribeAndPublish" "--gtest_also_run_disabled_tests"
+Directory: /home/vivek/pubsubcpp/build
+"BrokerTest.SubscribeAndPublish" start time: Dec 23 21:40 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/vivek/pubsubcpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BrokerTest.SubscribeAndPublish
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BrokerTest
+[ RUN      ] BrokerTest.SubscribeAndPublish
+[2025-12-23 21:40:44.749] [info] New subscriber added, total: 1
+[2025-12-23 21:40:44.749] [info] Published event to 1 subscribers
+[       OK ] BrokerTest.SubscribeAndPublish (0 ms)
+[----------] 1 test from BrokerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BrokerTest.SubscribeAndPublish" end time: Dec 23 21:40 IST
+"BrokerTest.SubscribeAndPublish" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/8 Testing: BrokerTest.MultipleSubscribers
+2/8 Test: BrokerTest.MultipleSubscribers
+Command: "/home/vivek/pubsubcpp/build/pubsub_tests" "--gtest_filter=BrokerTest.MultipleSubscribers" "--gtest_also_run_disabled_tests"
+Directory: /home/vivek/pubsubcpp/build
+"BrokerTest.MultipleSubscribers" start time: Dec 23 21:40 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/vivek/pubsubcpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BrokerTest.MultipleSubscribers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BrokerTest
+[ RUN      ] BrokerTest.MultipleSubscribers
+[2025-12-23 21:40:44.752] [info] New subscriber added, total: 1
+[2025-12-23 21:40:44.752] [info] New subscriber added, total: 2
+[2025-12-23 21:40:44.752] [info] Published event to 2 subscribers
+[       OK ] BrokerTest.MultipleSubscribers (0 ms)
+[----------] 1 test from BrokerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BrokerTest.MultipleSubscribers" end time: Dec 23 21:40 IST
+"BrokerTest.MultipleSubscribers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/8 Testing: BrokerTest.Shutdown
+3/8 Test: BrokerTest.Shutdown
+Command: "/home/vivek/pubsubcpp/build/pubsub_tests" "--gtest_filter=BrokerTest.Shutdown" "--gtest_also_run_disabled_tests"
+Directory: /home/vivek/pubsubcpp/build
+"BrokerTest.Shutdown" start time: Dec 23 21:40 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/vivek/pubsubcpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BrokerTest.Shutdown
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BrokerTest
+[ RUN      ] BrokerTest.Shutdown
+[2025-12-23 21:40:44.756] [info] New subscriber added, total: 1
+[2025-12-23 21:40:44.756] [info] Broker shutdown, all channels closed
+[       OK ] BrokerTest.Shutdown (0 ms)
+[----------] 1 test from BrokerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BrokerTest.Shutdown" end time: Dec 23 21:40 IST
+"BrokerTest.Shutdown" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/8 Testing: BrokerTest.SubscribeAfterShutdown
+4/8 Test: BrokerTest.SubscribeAfterShutdown
+Command: "/home/vivek/pubsubcpp/build/pubsub_tests" "--gtest_filter=BrokerTest.SubscribeAfterShutdown" "--gtest_also_run_disabled_tests"
+Directory: /home/vivek/pubsubcpp/build
+"BrokerTest.SubscribeAfterShutdown" start time: Dec 23 21:40 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/vivek/pubsubcpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BrokerTest.SubscribeAfterShutdown
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BrokerTest
+[ RUN      ] BrokerTest.SubscribeAfterShutdown
+[2025-12-23 21:40:44.759] [info] Broker shutdown, all channels closed
+[2025-12-23 21:40:44.759] [warning] Attempted to subscribe after shutdown
+[       OK ] BrokerTest.SubscribeAfterShutdown (0 ms)
+[----------] 1 test from BrokerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BrokerTest.SubscribeAfterShutdown" end time: Dec 23 21:40 IST
+"BrokerTest.SubscribeAfterShutdown" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/8 Testing: ChannelTest.PushAndPop
+5/8 Test: ChannelTest.PushAndPop
+Command: "/home/vivek/pubsubcpp/build/pubsub_tests" "--gtest_filter=ChannelTest.PushAndPop" "--gtest_also_run_disabled_tests"
+Directory: /home/vivek/pubsubcpp/build
+"ChannelTest.PushAndPop" start time: Dec 23 21:40 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/vivek/pubsubcpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ChannelTest.PushAndPop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ChannelTest
+[ RUN      ] ChannelTest.PushAndPop
+[       OK ] ChannelTest.PushAndPop (0 ms)
+[----------] 1 test from ChannelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ChannelTest.PushAndPop" end time: Dec 23 21:40 IST
+"ChannelTest.PushAndPop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/8 Testing: ChannelTest.PopBlocksUntilPush
+6/8 Test: ChannelTest.PopBlocksUntilPush
+Command: "/home/vivek/pubsubcpp/build/pubsub_tests" "--gtest_filter=ChannelTest.PopBlocksUntilPush" "--gtest_also_run_disabled_tests"
+Directory: /home/vivek/pubsubcpp/build
+"ChannelTest.PopBlocksUntilPush" start time: Dec 23 21:40 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/vivek/pubsubcpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ChannelTest.PopBlocksUntilPush
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ChannelTest
+[ RUN      ] ChannelTest.PopBlocksUntilPush
+[       OK ] ChannelTest.PopBlocksUntilPush (50 ms)
+[----------] 1 test from ChannelTest (50 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (50 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"ChannelTest.PopBlocksUntilPush" end time: Dec 23 21:40 IST
+"ChannelTest.PopBlocksUntilPush" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/8 Testing: ChannelTest.CloseReturnsNullopt
+7/8 Test: ChannelTest.CloseReturnsNullopt
+Command: "/home/vivek/pubsubcpp/build/pubsub_tests" "--gtest_filter=ChannelTest.CloseReturnsNullopt" "--gtest_also_run_disabled_tests"
+Directory: /home/vivek/pubsubcpp/build
+"ChannelTest.CloseReturnsNullopt" start time: Dec 23 21:40 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/vivek/pubsubcpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ChannelTest.CloseReturnsNullopt
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ChannelTest
+[ RUN      ] ChannelTest.CloseReturnsNullopt
+[       OK ] ChannelTest.CloseReturnsNullopt (0 ms)
+[----------] 1 test from ChannelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ChannelTest.CloseReturnsNullopt" end time: Dec 23 21:40 IST
+"ChannelTest.CloseReturnsNullopt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/8 Testing: ChannelTest.PushAfterCloseIgnored
+8/8 Test: ChannelTest.PushAfterCloseIgnored
+Command: "/home/vivek/pubsubcpp/build/pubsub_tests" "--gtest_filter=ChannelTest.PushAfterCloseIgnored" "--gtest_also_run_disabled_tests"
+Directory: /home/vivek/pubsubcpp/build
+"ChannelTest.PushAfterCloseIgnored" start time: Dec 23 21:40 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/vivek/pubsubcpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ChannelTest.PushAfterCloseIgnored
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ChannelTest
+[ RUN      ] ChannelTest.PushAfterCloseIgnored
+[       OK ] ChannelTest.PushAfterCloseIgnored (0 ms)
+[----------] 1 test from ChannelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ChannelTest.PushAfterCloseIgnored" end time: Dec 23 21:40 IST
+"ChannelTest.PushAfterCloseIgnored" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 23 21:40 IST

@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/pubsub_example.dir/src/main.cpp.o -o pubsub_example  _deps/spdlog-build/libspdlog.a -lpthread 
