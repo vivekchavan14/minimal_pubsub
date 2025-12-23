@@ -1,6 +1,6 @@
 # PubSubCpp
 
-A minimal, thread-safe publish-subscribe (pub/sub) library implemented in C++20. This project demonstrates event-driven programming with generics, concurrency, and modern C++ features. Suitable for Software Engineering portfolios or interviews.
+A minimal, thread-safe publish-subscribe (pub/sub) library implemented in C++20. This project demonstrates event-driven programming with generics, concurrency, and modern C++ features. 
 
 ## Features
 
