@@ -1,9 +1,0 @@
-BrokerTest.SubscribeAndPublish 2 0.00167
-BrokerTest.MultipleSubscribers 2 0.00131342
-BrokerTest.Shutdown 2 0.00185639
-BrokerTest.SubscribeAfterShutdown 2 0.0013048
-ChannelTest.PushAndPop 2 0.00100928
-ChannelTest.PopBlocksUntilPush 2 0.0267823
-ChannelTest.CloseReturnsNullopt 2 0.00161501
-ChannelTest.PushAfterCloseIgnored 2 0.00125288
----

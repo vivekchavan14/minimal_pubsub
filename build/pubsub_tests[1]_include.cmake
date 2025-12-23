@@ -1,5 +1,0 @@
-if(EXISTS "/home/vivek/pubsubcpp/build/pubsub_tests[1]_tests.cmake")
-  include("/home/vivek/pubsubcpp/build/pubsub_tests[1]_tests.cmake")
-else()
-  add_test(pubsub_tests_NOT_BUILT pubsub_tests_NOT_BUILT)
-endif()
